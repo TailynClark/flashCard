@@ -1,0 +1,63 @@
+.frontCard{
+    background: white;
+    z-index: 1000;
+    animation-name: mymove; 
+    animation-duration: 4s;
+  }
+  div{
+    animation: mymove 5s infinite;
+  }
+
+  
+  h1 {
+    padding-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    z-index: 100;
+    float: left;
+    padding-left: 10%;
+    font-size: 5em;
+    color:;
+  }
+  h3 {
+    padding-top: 15px;
+    font-family: 'Raleway', sans-serif;
+    z-index: 100;
+    float: left;
+    padding-left: 10%;
+  }
+  
+  p {
+    text-align: left;
+    /* use width to set line length rather than <br> tags */
+    width: 70%;
+    padding-top: 13px;
+    font-family: 'Raleway', sans-serif;
+    z-index: 100;
+    float: left;
+    padding-left: 10%;
+  }
+
+  
+  .wrapper .pie {
+  width: 50%;
+  height: 100%;
+  transform-origin: 100% 50%;
+  position: absolute;
+  background: transparent;
+  border: 5px solid rgba(0,0,0,0.9);
+  }
+
+  
+  button {
+    float: right;
+    margin-right: 50%;
+    margin-top: 30%;
+
+  }
+
+  @keyframes mymove {
+    0%  {font-style: italic;}
+    25% {font-style: normal;}
+    50% {font-style: oblique;}
+  }
+
